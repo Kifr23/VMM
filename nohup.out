@@ -1,0 +1,70 @@
+
+> vmm@0.1.0 start /home/franckie/WEB/vmm
+> PORT=3001 react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.184.226/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/franckie/WEB/vmm/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view vmm in the browser.
+
+  Local:            http://localhost:3001
+  On Your Network:  http://192.168.184.226:3001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Compiling...
+Compiled successfully!
+
+> vmm@0.1.0 start
+> PORT=3001 react-scripts start
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://192.168.184.226/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from 
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from /home/franckie/WEB/vmm/public
+[34mℹ[39m [90m｢wds｣[39m: 404s will fallback to /
+Starting the development server...
+
+Compiled successfully!
+
+You can now view vmm in the browser.
+
+  Local:            http://localhost:3001
+  On Your Network:  http://192.168.184.226:3001
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+Vim: Warning: Output is not to a terminal
+Vim: Warning: Input is not from a terminal
+[?1049h[?1h=[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"~/WEB/vmm/src/index.js" 17L, 500C[1;1Himport React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import reportWebVitals from './reportWebVitals';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
+// If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+reportWebVitals();
+[1m[34m~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [1;1H[?12l[?25h[24;1H[m[?1l>[?1049lVim: Error reading input, exiting...
+
+Vim: Finished.
+[24;1H
+Could not open index.js in the editor.
+The editor process exited with an error: (code 1).
+
+To set up the editor integration, add something like REACT_EDITOR=atom to the .env.local file in your project folder and restart the development server. Learn more: https://goo.gl/MMTaZt
+
